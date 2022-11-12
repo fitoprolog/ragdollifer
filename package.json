@@ -1,0 +1,28 @@
+{
+  "name": "kontrolla",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js --loader:.html=text --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.13",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@babylonjs/gui": "^5.31.2",
+    "@babylonjs/loaders": "^5.31.2",
+    "babylonjs": "^5.31.2",
+    "babylonjs-gui": "^5.31.2",
+    "babylonjs-materials": "^5.31.2",
+    "lodash": "^4.17.21",
+    "oimo": "^1.0.9"
+  }
+}
